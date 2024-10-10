@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function Services() {
 return (
-<div>
-    <div className='container icons2'>
+  <>
+<div className='container'>
+    <div className='icons2'>
     <div className='row'>
         <div className='col-lg-6'>
         <img src='./pics/sliceing.png' className='phones' alt='phones'/>    
@@ -28,8 +29,10 @@ return (
         loved one's profile</p>
         </div>  
     </div>
+  
     </div>
-    <hr/>
 </div>
+    <hr/>
+    </>
   )
 }
