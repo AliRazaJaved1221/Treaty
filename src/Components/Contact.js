@@ -6,32 +6,35 @@ import { IoLocationOutline } from "react-icons/io5";
 export default function Contact() {
   return (
     <div className='container'>
-        <div className='icons3'>
+        <div className='icons3 jadu' style={{marginLeft:'1rem'}}>
             <div className='row' style={{ marginTop:'6rem'}}>
                 <div className='col-lg-5'>
-                    <div style={{marginLeft:'1rem'}}>
+                    <div >
                     <p className='stay'>STAY IN TOUCH</p>
                     <p className='contact'>Contact us</p>
                     <p className='dot2'>_ _</p>
-                    <div className='row mt-5'>
+                    </div>
+                    <div className='mt-5'>
+                    <div className='row rows'>
                     <div className='wid1'>
-                        <p className='mini_icons2'><FaMobileScreenButton/></p>
+                        <p className='mini_icons2'><FaMobileScreenButton  className='size1'/></p>
                     </div>
                     <div className='wid2 mini_text'>1-541-754-3010</div>
                     </div>
-                    <div className='row'>
+                    <div className='row rows'>
                     <div className='wid1'>
-                        <p className='mini_icons2'><MdOutlineMail /></p>
+                        <p className='mini_icons2'><MdOutlineMail  className='size1'/></p>
                     </div>
                     <div className='wid2 mini_text'>spport@jointreaty.com</div>
                     </div>
-                    <div className='row'>
+                    <div className='row rows'>
                     <div className='wid1'>
-                        <p className='mini_icons2'><IoLocationOutline/></p>
+                        <p className='mini_icons2'><IoLocationOutline className='size1'/></p>
                     </div>
                     <div className='wid2 mini_text'>3782 Shady Pines Drive USA</div>
                     </div>
-                    <div className='row mt-4'>
+                    
+                    <div className='row facebook_icons mt-4'>
                         <img src='./pics/fb.png' className='main_icons' alt='facebook'/>
                         <img src='./pics/twitter.png' className='main_icons' alt='twitter'/>
                         <img src='./pics/instagram.png' className='main_icons' alt='instagram'/>

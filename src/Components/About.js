@@ -8,14 +8,18 @@ export default function About() {
           <div className='row mt-3 justify-content-center'>
             <div className='col-lg-2 col-md-4 col-sm-6 text-center mb-4 cards1'>
               <div className='circle1'>
-                <img src='./pics/chat.png' className='mini_icons' alt='chat' />
+                <div className='mini_icons'>
+                <img src='./pics/chat.png'  alt='chat' />
+                </div>
               </div>
               <p className='messaging'>Messaging</p>
               <p className='messaging2'>Direct and Group <br />Message your team</p>
             </div>
             <div className='col-lg-2 col-md-4 col-sm-6 text-center mb-4 cards1'>
               <div className='circle1'>
-                <img src='./pics/medication.png' className='mini_icons' alt='Medication' />
+              <div className='mini_icons'>
+              <img src='./pics/medication.png' alt='Medication' />
+              </div>
               </div>
               <p className='messaging'>Medication</p>
               <p className='messaging2'>
@@ -24,7 +28,9 @@ export default function About() {
             </div>
             <div className='col-lg-2 col-md-4 col-sm-6 text-center mb-4 cards1'>
               <div className='circle1'>
-                <img src='./pics/Schedule.png' className='mini_icons' alt='Schedule' />
+              <div className='mini_icons'>
+              <img src='./pics/Schedule.png' alt='Schedule' />
+              </div>
               </div>
               <p className='messaging'>Schedule</p>
               <p className='messaging2'>
@@ -33,16 +39,18 @@ export default function About() {
             </div>
             <div className='col-lg-2 col-md-4 col-sm-6 text-center mb-4 cards1'>
               <div className='circle1'>
-                <img src='./pics/Compliance.png' className='mini_icons' alt='Compliance' />
+              <div className='mini_icons'>
+              <img src='./pics/Compliance.png' alt='Compliance' />
+              </div>
               </div>
               <p className='messaging'>Compliance</p>
-              <p className='messaging2'>
-                Ensure compliance by <br />allowing patients to have <br />mobile, up-to date access <br />to their medication list
-              </p>
+              <p className='messaging2'>Ensure compliance by <br />allowing patients to have <br />mobile, up-to date access <br />to their medication list</p>
             </div>
             <div className='col-lg-2 col-md-4 col-sm-6 text-center mb-4 cards1'>
               <div className='circle1'>
-                <img src='./pics/Track-Visit.png' className='mini_icons' alt='Track Visit' />
+              <div className='mini_icons'>
+              <img src='./pics/Track-Visit.png' alt='Track Visit' />
+              </div>
               </div>
               <p className='messaging'>Track Visit</p>
               <p className='messaging2'>
