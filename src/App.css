@@ -36,14 +36,16 @@
   content: ''; 
   position: absolute;
   left: 0;
-  bottom: -2.4rem; 
+  bottom: -1.6rem; 
   width: 100%;
   height: 3px; 
   background-color: #ea4644; 
   transform: scaleX(0); 
 
 }
-
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+.link1::after {bottom:-1.3rem}
+}
 .link1:hover::after {
   transform: scaleX(1); 
   transform-origin: left; 
