@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div className='container'>
         <div className='icons'>
-          <div className='row mt-3 justify-content-center'>
+          <div className='row justify-content-center'>
             <div className='col-lg-2 col-md-4 col-sm-6 text-center mb-4 cards1'>
               <div className='circle1'>
                 <div className='mini_icons'>
@@ -23,7 +23,7 @@ export default function About() {
               </div>
               <p className='messaging'>Medication</p>
               <p className='messaging2'>
-                Track supply and <br />medication refills by last <br />requested date by <br />patient's family
+                Track supply and medication refills by last requested date by patient's family
               </p>
             </div>
             <div className='col-lg-2 col-md-4 col-sm-6 text-center mb-4 cards1'>
@@ -34,7 +34,7 @@ export default function About() {
               </div>
               <p className='messaging'>Schedule</p>
               <p className='messaging2'>
-                Transparent Scheduling <br />for all team members on <br />shared calendars with <br />mobile access
+                Transparent Scheduling for all team members on shared calendars with mobile access
               </p>
             </div>
             <div className='col-lg-2 col-md-4 col-sm-6 text-center mb-4 cards1'>
@@ -44,7 +44,7 @@ export default function About() {
               </div>
               </div>
               <p className='messaging'>Compliance</p>
-              <p className='messaging2'>Ensure compliance by <br />allowing patients to have <br />mobile, up-to date access <br />to their medication list</p>
+              <p className='messaging2'>Ensure compliance by allowing patients to have mobile, up-to date access to their medication list</p>
             </div>
             <div className='col-lg-2 col-md-4 col-sm-6 text-center mb-4 cards1'>
               <div className='circle1'>
@@ -54,7 +54,7 @@ export default function About() {
               </div>
               <p className='messaging'>Track Visit</p>
               <p className='messaging2'>
-                Track your staff's made <br />visits to each patient
+                Track your staff's made visits to each patient
               </p>
             </div>
           </div>

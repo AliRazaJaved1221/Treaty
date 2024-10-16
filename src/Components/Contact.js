@@ -6,15 +6,15 @@ import { IoLocationOutline } from "react-icons/io5";
 export default function Contact() {
   return (
     <div className='container'>
-        <div className='icons3 jadu' style={{marginLeft:'1rem'}}>
-            <div className='row' style={{ marginTop:'6rem'}}>
+        <div className='icons3 jadu'>
+            <div className='row'>
                 <div className='col-lg-5'>
                     <div >
                     <p className='stay'>STAY IN TOUCH</p>
                     <p className='contact'>Contact us</p>
                     <p className='dot2'>_ _</p>
                     </div>
-                    <div className='mt-5'>
+                    <div className='mtt'>
                     <div className='row rows'>
                     <div className='wid1'>
                         <p className='mini_icons2'><FaMobileScreenButton  className='size1'/></p>
@@ -34,7 +34,7 @@ export default function Contact() {
                     <div className='wid2 mini_text'>3782 Shady Pines Drive USA</div>
                     </div>
                     
-                    <div className='row facebook_icons mt-4'>
+                    <div className='row facebook_icons mt-2'>
                         <img src='./pics/fb.png' className='main_icons' alt='facebook'/>
                         <img src='./pics/twitter.png' className='main_icons' alt='twitter'/>
                         <img src='./pics/instagram.png' className='main_icons' alt='instagram'/>
@@ -45,7 +45,7 @@ export default function Contact() {
                 <div className='col-lg-7'>
                     <div className='box'>
                         <div className='container'>
-                            <div className='row mt-5'>
+                            <div className='row rowz'>
                                 <div className='col-lg-6'>
                                 <input type='text' className='fields' placeholder='NAME *'/>
                                 <input type='text' className='fields' placeholder='EMAIL *'/>
